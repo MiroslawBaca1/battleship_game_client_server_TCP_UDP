@@ -62,5 +62,5 @@ The server operates as a **daemon** and logs match results.
 
 ### Compile:
 ```sh
-gcc -o client client.c -pthread
-gcc -o server server.c -pthread
+gcc -o client klient.c -pthread
+gcc -o server serwer.c -pthread
